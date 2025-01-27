@@ -22,5 +22,4 @@ def process_file(input_filename, output_filename):
                 stripped_obj = obj.strip()
                 output_file.write(f"Object: {stripped_obj}, Type: {identify_object_type(stripped_obj)}\n")
 
-# Process the input file and write the output to a file
 process_file("random_objects.txt", "output.txt")
